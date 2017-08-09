@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Semen Martynovich](https://up.htmlacademy.ru/htmlcss/18/user/498673).
-* Наставник: `Неизвестно`.
+* Наставник: [Игорь Плиев](https://htmlacademy.ru/profile/id233017).
 
 ---
 
