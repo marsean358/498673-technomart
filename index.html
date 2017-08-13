@@ -3,15 +3,94 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
-    <header class="main-header">
+    <header class="page-header">
+      <div class="top-header">
+        <a href="#" class="logo">ТЕХНОМАРТ</a>
+        <form action="#" class="top-header-search">
+          <label class="top-search">
+            Поиск:
+            <input type="text">
+          </label>
+        </form>
+        <ul class="menu-top-orders">
+          <li class="top-bookmarks">Закладки</li>
+          <li class="top-basket">Корзина</li>
+          <li class="top-order">Оформить заказ</li>
+        </ul>
+      </div>
 
+      <div class="header-middle">
+        <p class="middle-info">
+          Интернет-магазин<br>
+          строительных материалов<br>
+          и инструментов для дома<br>
+        </p>
+        <address class="middle-address">
+          +7 (812) 555-05-55 <br>
+          г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
+        </address>
+        <div class="middle-account">
+          <ul>
+            <li><a href="#" class="sign-in">Войти</a></li>
+            <li><a href="#" class="sign-up">Регистрация</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <nav class="header-bottom">
+        <ul class="header-bottom-menu">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Компания</a></li>
+          <li><a href="catalog.html" target="_self">Каталог</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class="container">
 
+    <main>
+      <h1 class="invisible">
+        Интернет-магазин "Техномарт"
+      </h1>
+      <section class="promo">
+        <ul>
+          <li class="promo-item">
+            <h3 class="materials">Материалы</h3>
+          </li>
+          <li class="promo-item">
+            <h3 class="instruments">Инструменты</h3>
+          </li>
+          <li class="promo-item">
+            <h3 class="machinery">Техника</h3>
+          </li>
+        </ul>
+        <div class="slider">
+          <ul>
+            <li><img width="500" height="200" src="img/slide_1.jpg" alt="ПЕРФОРАТОРЫ.
+            Настоящие мужские игрушки"></li>
+            <li><img width="500" height="200" src="img/slide_2.jpg"
+               alt="ДРЕЛИ.
+               Соседям на радость!"></li>
+          </ul>
+        </div>
+        <ul>
+          <li class="promo-item">
+            <h3 class="discounts">Скидки</h3>
+          </li>
+          <li class="promo-item">
+            <h3 class="delivery">Доставка</h3>
+          </li>
+        </ul>
+
+      </section>
     </main>
-    <footer class="main-footer">
+    <footer class="page-footer">
 
     </footer>
 
